@@ -1,21 +1,73 @@
-html{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #08ffc8; /* #08ffc8 - Verde */
+    --secondary-color: #fff7f7; /* #fff7f7 - Branco */
+    --tertiary-color: #dadada; /* #dadada - Cinza */
+    --accent-color: #204969; /* #204969 - Azul escuro */
 }
 
-.text-center{
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-body{
-	background: #50a3a2;
-background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
-.main-card{
-    border-radius: 5px;
-    float: left;
-    width: 500px;
-    height: 500px;
+
+h1 {
+    color: var(--accent-color);
+}
+
+h2 {
+    color: var(--tertiary-color);
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: var(--accent-color);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.balloon {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 
