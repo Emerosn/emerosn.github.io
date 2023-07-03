@@ -144,7 +144,13 @@ ul li {
     border-bottom: 1px solid var(--tertiary-color);
 }
 
-
+.text {
+    margin-bottom: 5px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
 /* Media Queries */
 
 /* Smartphones em modo retrato */
