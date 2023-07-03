@@ -147,10 +147,15 @@ ul li {
 .text {
     margin-bottom: 5px;
 }
+
 .links{
     display: flex;
     justify-content: center;
 }
+.icons{
+    width:18px;
+}
+
 /* Media Queries */
 
 /* Smartphones em modo retrato */
