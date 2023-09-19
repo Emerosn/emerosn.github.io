@@ -119,7 +119,7 @@ ul li {
 
 .knowledge-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 2fr);
     grid-gap: 20px;
 }
 
@@ -267,7 +267,7 @@ ul li {
 /* PCs e telas maiores */
 @media only screen and (min-width: 1025px) {
     .card {
-        max-width: 800px;
+        max-width: 1000px;
         padding: 60px;
     }
 
